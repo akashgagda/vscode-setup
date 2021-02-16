@@ -1,0 +1,139 @@
+{
+  // window
+  "window.closeWhenEmpty": true,
+  "window.dialogStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.titleSeparator": " • ",
+  "workbench.colorTheme": "Gruvbox Dark (Hard)",
+  "workbench.commandPalette.history": 3,
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.openMode": "singleClick",
+  "workbench.list.smoothScrolling": true,
+
+  // editor
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.accessibilityPageSize": 15,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.cursorBlinking": "expand",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 25,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+
+  // prettier
+  "breadcrumbs.enabled": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  // My Settings
+  "sync.gist": "f4381bda1e1faeeaddccc3bb41b246a2",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true
+  },
+  //VIM
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.easymotionMarkerooundColor": "#020202",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "vim.leader": "<space>",
+
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-d>": false,
+    // Copy
+    "<C-c>": false,
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  },
+  //Normal Setting
+  "workbench.statusBar.visible": false,
+  "editor.lineNumbers": "relative",
+  "workbench.activityBar.visible": false
+}
