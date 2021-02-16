@@ -1,2 +1,1 @@
-# my-vscode
-my personal vscode settings
+# my personal vscode settings
