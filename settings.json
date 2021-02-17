@@ -4,7 +4,7 @@
   "window.dialogStyle": "custom",
   "window.menuBarVisibility": "toggle",
   "window.titleSeparator": " • ",
-  "workbench.colorTheme": "Gruvbox Dark (Hard)",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.commandPalette.history": 3,
   "workbench.commandPalette.preserveInput": true,
   "workbench.editor.closeOnFileDelete": true,
@@ -132,8 +132,5 @@
     "<C-z>": false,
     "<C-y>": false
   },
-  //Normal Setting
-  "workbench.statusBar.visible": false,
-  "editor.lineNumbers": "relative",
-  "workbench.activityBar.visible": false
+  "editor.lineNumbers": "relative"
 }

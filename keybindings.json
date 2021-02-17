@@ -42,5 +42,9 @@
     "args": {
       "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
     }
+  },
+  {
+    "key": "ctrl+n", // "cmd+n" on mac
+    "command": "extension.advancedNewFile"
   }
 ]
